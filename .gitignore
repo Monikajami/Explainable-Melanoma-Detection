@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Datasets
+dataset/
+preprocessed/
+final_dataset/
+ISIC_2020_Training_JPEG/
+sorted_images/
+train.csv
+
+# Trained models
+*.keras
+*.h5
+models/
+
+# TensorFlow old environment
+tf_old_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Generated results
+cnn_results/
+results/
+gradcam/
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
